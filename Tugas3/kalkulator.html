@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tugas3Style.css">
+</head>
+<body>
+    <h1>Kalkulator Sederhana</h1>
+    <p>Masukkan Bilangan 1:</p>
+    <input type="number" id="bilangan1" placeholder="Masukkan bilangan pertama">
+
+    <p>Masukkan Bilangan 2:</p>
+    <input type="number" id="bilangan2" placeholder="Masukkan bilangan kedua">
+
+    <div class="buttons">
+        <button onclick="hitung('+')">+</button>
+        <button onclick="hitung('-')">-</button>
+        <button onclick="hitung('*')">x</button>
+        <button onclick="hitung('/')">/</button>
+    </div>
+
+    <p>Hasil:</p>
+    <input type="text" id="hasil" placeholder="Hasil perhitungan" readonly>
+
+    <script src="kalkulator.js"></script>
+
+</body>
+</html>
