@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+</head>
+<body>
+    <h1>Biodata Mahasiswa</h1>
+    <form action="biodata.php" method="get">
+        <label for="npm">NPM: </label>
+        <input type="text" id="npm" name="npm"><br>
+
+        <label for="nama">Nama: </label>
+        <input type="text" id="nama" name="nama"><br>
+
+        <label for="alamat">Alamat: </label>
+        <input type="text" id="alamat" name="alamat"><br>
+
+        <label for="tmpt-lahir">Tempat lahir: </label>
+        <input type="text" id="tmpt-lahir" name="tmpt-lahir"><br>
+
+        <label for="tgl-lahir">Tanggal lahir: </label>
+        <input type="text" id="tgl-lahir" name="tgl-lahir"><br>
+
+        <div>Jenis kelamin</div>
+        <input type="checkbox" id="l" name="jk[]" value="Laki-laki">
+        <label for="l"> Laki-laki</label><br>
+        <input type="checkbox" id="p" name="jk[]" value="Perempuan">
+        <label for="p"> Perempuan</label><br>
+
+        <label for="hobi">Hobi: </label>
+        <input type="text" id="hobi" name="hobi"><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
